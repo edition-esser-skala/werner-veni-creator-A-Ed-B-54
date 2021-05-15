@@ -21,7 +21,7 @@ VeniOrgano = {
     g, g'2 f4 e d %15
     c c' g2 g, \noBreak
     c4 c8 c c4 c c2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoCum
+    \key a \minor \time 4/4 \tempoCum \newSpacingSection
       \mvTr a'2\pE-\soloE gis \noBreak
     g fis~
     fis dis %20

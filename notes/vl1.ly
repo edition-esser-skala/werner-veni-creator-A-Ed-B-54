@@ -21,7 +21,8 @@ VeniViolinoI = {
     h,8 g a h c d e f g a h g %15
     c4 e d c' g, h' \noBreak
     c g c g e2\fermata \bar "||"
-    \key a \minor \time 4/4 \tempoCum c2\p h \noBreak
+    \key a \minor \time 4/4 \tempoCum \newSpacingSection
+      c2\p h \noBreak
     a1~
     a2 h~ %20
     h d
