@@ -4,7 +4,7 @@
 
 #(set-global-staff-size 15.87)
 
-% \paper { systems-per-page = #2 }
+\paper { systems-per-page = #2 }
 
 \book {
   \bookpart {
@@ -68,7 +68,7 @@
         \new FiguredBass { \VeniBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 110 }
+      \midi { \tempo 2 = 100 }
     }
   }
 }

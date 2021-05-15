@@ -667,17 +667,11 @@ tocLabelLong = #(define-music-function
 )
 
 
-
 tempoVeni = \tempoMarkup "Vivace"
-% tempoQuiDiceris = \tempoMarkup "Adagio"
-% tempoAccende = \tempoMarkup "Vivace"
-% tempoDeoPatri = \tempoMarkup "Presto"
-
-
-markDaCapo = {
-  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-  \mark \markup { \remark "da capo" }
-}
+tempoCum = \tempoMarkup "Recitativo"
+tempoBeata = \tempoMarkup "Spirituoso"
+tempoExurge = \tempoMarkup "Tempo ordinario"
+tempoAlleluia = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"
