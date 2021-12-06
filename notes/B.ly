@@ -4,7 +4,7 @@ VeniBassoNotes = {
   \relative c {
     \clef bass
     \key c \major \time 3/2 \autoBeamOff \tempoVeni
-    \mvTr c'2\fE^\tutti c4 c, c' h
+    \once \override DynamicText.X-offset = #-2 \mvTr c'2\fE^\tutti c4 c, c' h
     a g8([ f)] e2. c4
     f4. e8 d4_( c8[ h)] a4( h)
     c2 r r
